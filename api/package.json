@@ -1,0 +1,23 @@
+{
+  "name": "surafel-admin-dashboard-api",
+  "version": "1.0.0",
+  "description": "The backend to the admin-dashboard project",
+  "main": "./dist/src/app.js",
+  "scripts": {
+    "dev": "tsc -w & nodemon .",
+    "serve": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "nodemon": "^2.0.15",
+    "ts": "^0.2.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
